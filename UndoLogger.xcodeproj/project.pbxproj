@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6342BE461A1BAD150002C53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BE451A1BAD150002C53C /* AppDelegate.m */; };
+		6342BE481A1BAD150002C53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BE471A1BAD150002C53C /* main.m */; };
+		6342BE4A1A1BAD150002C53C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE491A1BAD150002C53C /* Images.xcassets */; };
+		6342BE4D1A1BAD150002C53C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE4B1A1BAD150002C53C /* MainMenu.xib */; };
+		6342BE591A1BAD150002C53C /* UndoLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BE581A1BAD150002C53C /* UndoLoggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6342BE531A1BAD150002C53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6342BE371A1BAD150002C53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6342BE3E1A1BAD150002C53C;
+			remoteInfo = UndoLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6342BE3F1A1BAD150002C53C /* UndoLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6342BE431A1BAD150002C53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6342BE441A1BAD150002C53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6342BE451A1BAD150002C53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6342BE471A1BAD150002C53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6342BE491A1BAD150002C53C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6342BE4C1A1BAD150002C53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6342BE521A1BAD150002C53C /* UndoLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6342BE571A1BAD150002C53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6342BE581A1BAD150002C53C /* UndoLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndoLoggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6342BE3C1A1BAD150002C53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342BE4F1A1BAD150002C53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6342BE361A1BAD150002C53C = {
+			isa = PBXGroup;
+			children = (
+				6342BE411A1BAD150002C53C /* UndoLogger */,
+				6342BE551A1BAD150002C53C /* UndoLoggerTests */,
+				6342BE401A1BAD150002C53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6342BE401A1BAD150002C53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE3F1A1BAD150002C53C /* UndoLogger.app */,
+				6342BE521A1BAD150002C53C /* UndoLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6342BE411A1BAD150002C53C /* UndoLogger */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE441A1BAD150002C53C /* AppDelegate.h */,
+				6342BE451A1BAD150002C53C /* AppDelegate.m */,
+				6342BE491A1BAD150002C53C /* Images.xcassets */,
+				6342BE4B1A1BAD150002C53C /* MainMenu.xib */,
+				6342BE421A1BAD150002C53C /* Supporting Files */,
+			);
+			path = UndoLogger;
+			sourceTree = "<group>";
+		};
+		6342BE421A1BAD150002C53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE431A1BAD150002C53C /* Info.plist */,
+				6342BE471A1BAD150002C53C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6342BE551A1BAD150002C53C /* UndoLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE581A1BAD150002C53C /* UndoLoggerTests.m */,
+				6342BE561A1BAD150002C53C /* Supporting Files */,
+			);
+			path = UndoLoggerTests;
+			sourceTree = "<group>";
+		};
+		6342BE561A1BAD150002C53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE571A1BAD150002C53C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6342BE3E1A1BAD150002C53C /* UndoLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6342BE5C1A1BAD150002C53C /* Build configuration list for PBXNativeTarget "UndoLogger" */;
+			buildPhases = (
+				6342BE3B1A1BAD150002C53C /* Sources */,
+				6342BE3C1A1BAD150002C53C /* Frameworks */,
+				6342BE3D1A1BAD150002C53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UndoLogger;
+			productName = UndoLogger;
+			productReference = 6342BE3F1A1BAD150002C53C /* UndoLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6342BE511A1BAD150002C53C /* UndoLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6342BE5F1A1BAD150002C53C /* Build configuration list for PBXNativeTarget "UndoLoggerTests" */;
+			buildPhases = (
+				6342BE4E1A1BAD150002C53C /* Sources */,
+				6342BE4F1A1BAD150002C53C /* Frameworks */,
+				6342BE501A1BAD150002C53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6342BE541A1BAD150002C53C /* PBXTargetDependency */,
+			);
+			name = UndoLoggerTests;
+			productName = UndoLoggerTests;
+			productReference = 6342BE521A1BAD150002C53C /* UndoLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6342BE371A1BAD150002C53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "David Bismut";
+				TargetAttributes = {
+					6342BE3E1A1BAD150002C53C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6342BE511A1BAD150002C53C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6342BE3E1A1BAD150002C53C;
+					};
+				};
+			};
+			buildConfigurationList = 6342BE3A1A1BAD150002C53C /* Build configuration list for PBXProject "UndoLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6342BE361A1BAD150002C53C;
+			productRefGroup = 6342BE401A1BAD150002C53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6342BE3E1A1BAD150002C53C /* UndoLogger */,
+				6342BE511A1BAD150002C53C /* UndoLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6342BE3D1A1BAD150002C53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6342BE4A1A1BAD150002C53C /* Images.xcassets in Resources */,
+				6342BE4D1A1BAD150002C53C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342BE501A1BAD150002C53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6342BE3B1A1BAD150002C53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6342BE481A1BAD150002C53C /* main.m in Sources */,
+				6342BE461A1BAD150002C53C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6342BE4E1A1BAD150002C53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6342BE591A1BAD150002C53C /* UndoLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6342BE541A1BAD150002C53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6342BE3E1A1BAD150002C53C /* UndoLogger */;
+			targetProxy = 6342BE531A1BAD150002C53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6342BE4B1A1BAD150002C53C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6342BE4C1A1BAD150002C53C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6342BE5A1A1BAD150002C53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6342BE5B1A1BAD150002C53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6342BE5D1A1BAD150002C53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UndoLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6342BE5E1A1BAD150002C53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UndoLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6342BE601A1BAD150002C53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UndoLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoLogger.app/Contents/MacOS/UndoLogger";
+			};
+			name = Debug;
+		};
+		6342BE611A1BAD150002C53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UndoLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoLogger.app/Contents/MacOS/UndoLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6342BE3A1A1BAD150002C53C /* Build configuration list for PBXProject "UndoLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342BE5A1A1BAD150002C53C /* Debug */,
+				6342BE5B1A1BAD150002C53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6342BE5C1A1BAD150002C53C /* Build configuration list for PBXNativeTarget "UndoLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342BE5D1A1BAD150002C53C /* Debug */,
+				6342BE5E1A1BAD150002C53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6342BE5F1A1BAD150002C53C /* Build configuration list for PBXNativeTarget "UndoLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6342BE601A1BAD150002C53C /* Debug */,
+				6342BE611A1BAD150002C53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6342BE371A1BAD150002C53C /* Project object */;
+}
