@@ -12,6 +12,10 @@
 		6342BE4A1A1BAD150002C53C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE491A1BAD150002C53C /* Images.xcassets */; };
 		6342BE4D1A1BAD150002C53C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE4B1A1BAD150002C53C /* MainMenu.xib */; };
 		6342BE591A1BAD150002C53C /* UndoLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BE581A1BAD150002C53C /* UndoLoggerTests.m */; };
+		6342BE631A1BB6540002C53C /* undo_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE621A1BB6540002C53C /* undo_on.png */; };
+		6342BE671A1BB84C0002C53C /* undo_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE661A1BB84C0002C53C /* undo_off.png */; };
+		6342BE6A1A1C924A0002C53C /* AddLoginItem.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 6342BE681A1C924A0002C53C /* AddLoginItem.scpt */; };
+		6342BE6F1A1CB3F00002C53C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BE6E1A1CB3F00002C53C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 		6342BE521A1BAD150002C53C /* UndoLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6342BE571A1BAD150002C53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6342BE581A1BAD150002C53C /* UndoLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndoLoggerTests.m; sourceTree = "<group>"; };
+		6342BE621A1BB6540002C53C /* undo_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo_on.png; sourceTree = "<group>"; };
+		6342BE661A1BB84C0002C53C /* undo_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo_off.png; sourceTree = "<group>"; };
+		6342BE681A1C924A0002C53C /* AddLoginItem.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AddLoginItem.scpt; sourceTree = "<group>"; };
+		6342BE6D1A1CB3F00002C53C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6342BE6E1A1CB3F00002C53C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +87,9 @@
 			children = (
 				6342BE441A1BAD150002C53C /* AppDelegate.h */,
 				6342BE451A1BAD150002C53C /* AppDelegate.m */,
-				6342BE491A1BAD150002C53C /* Images.xcassets */,
-				6342BE4B1A1BAD150002C53C /* MainMenu.xib */,
+				6342BE6D1A1CB3F00002C53C /* Reachability.h */,
+				6342BE6E1A1CB3F00002C53C /* Reachability.m */,
+				6342BE6C1A1C924E0002C53C /* Resources */,
 				6342BE421A1BAD150002C53C /* Supporting Files */,
 			);
 			path = UndoLogger;
@@ -109,6 +119,18 @@
 				6342BE571A1BAD150002C53C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6342BE6C1A1C924E0002C53C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6342BE491A1BAD150002C53C /* Images.xcassets */,
+				6342BE4B1A1BAD150002C53C /* MainMenu.xib */,
+				6342BE681A1C924A0002C53C /* AddLoginItem.scpt */,
+				6342BE661A1BB84C0002C53C /* undo_off.png */,
+				6342BE621A1BB6540002C53C /* undo_on.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6342BE6A1A1C924A0002C53C /* AddLoginItem.scpt in Resources */,
 				6342BE4A1A1BAD150002C53C /* Images.xcassets in Resources */,
 				6342BE4D1A1BAD150002C53C /* MainMenu.xib in Resources */,
+				6342BE631A1BB6540002C53C /* undo_on.png in Resources */,
+				6342BE671A1BB84C0002C53C /* undo_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6342BE481A1BAD150002C53C /* main.m in Sources */,
+				6342BE6F1A1CB3F00002C53C /* Reachability.m in Sources */,
 				6342BE461A1BAD150002C53C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -315,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -328,6 +354,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UndoLogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +366,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UndoLogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +426,7 @@
 				6342BE5E1A1BAD150002C53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6342BE5F1A1BAD150002C53C /* Build configuration list for PBXNativeTarget "UndoLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +435,7 @@
 				6342BE611A1BAD150002C53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
